@@ -14,6 +14,7 @@ class Transfer
   end
   
   def execute_transaction
+    status = "closed"
     if self.valid? && sender.balance >= amount 
     end 
   end
